@@ -4,8 +4,19 @@ body {
     text-align: center;
 }
 
+@keyframes headerAnimation {
+    0% {color: red}
+    50% {color: green}
+    100% {color: blue}
+    
+}
+
 h1#siteHeader {
-    color: blue;
+    animation-name: headerAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 }
 
 
@@ -34,3 +45,12 @@ ul {
 #tocheader {
     text-decoration-line: underline;
 }
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: black;
+}
+
