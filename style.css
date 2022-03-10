@@ -16,7 +16,6 @@ h1#siteHeader {
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
-    text-align: center;
 }
 
 
@@ -26,6 +25,7 @@ h1#siteHeader {
     margin-right: auto;
     width: 50%;
 }
+
 /* links without navBar implementation 
 a {
     color: red;
@@ -37,7 +37,7 @@ a:hover {
 
 */
 
-#pageHeader {
+.pageHeader {
     text-align: center;
 }
 
@@ -69,7 +69,7 @@ a:hover {
     color: white;
   }
 
-  
+
 /*
 #pageHeader .navBar .center a {
     float: none;
@@ -81,6 +81,14 @@ a:hover {
 
 */
 
+/* aboutMeText CSS */
+#aboutMeText {
+    text-align: center;
+}
+
+#myList {
+    list-style-position: inside;
+}
 /*slideshow css*/
 
 * {box-sizing:border-box}
@@ -182,4 +190,10 @@ a:hover {
  
 .slideshow-container .mySlides.fade img {
     width: 100%;
+}
+
+/* configure dots in slide */
+
+#slideDots {
+    text-align: center;
 }
