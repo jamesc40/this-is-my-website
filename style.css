@@ -60,18 +60,6 @@ nav {
     color: white;
   }
 
-
-/*
-#pageHeader .navBar .center a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-*/
-
 /* aboutMeText CSS */
 #aboutMeText {
     text-align: center;
@@ -89,6 +77,7 @@ nav {
 
 .slideshow-container {
   max-width: 600px;
+  height: auto;
   position: relative;
   margin: auto;
 }
