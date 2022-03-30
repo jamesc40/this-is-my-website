@@ -23,12 +23,10 @@ h1#siteHeader {
     animation-fill-mode: forwards;
 }
 
-
 #titleImg {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin: auto;
+  width: 60%;
 }
 
 /* Add a black background color to the top navigation */
