@@ -183,3 +183,8 @@ nav {
 #feedback button:hover{
   background-color: greenyellow;
 }
+
+/* caption text clarity */ 
+#num5 {
+  color: darkgreen;
+}
